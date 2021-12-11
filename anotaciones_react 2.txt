@@ -1,0 +1,23 @@
+
+
+
+Los inputs tiene un callback llamado onChange { (e)=>{} }
+
+donde <e> es un evento,
+en los input el objeto evento tiene una prodiedad llamada target y targert a su vez tiene 
+una propiedad llamada value, que es la suma del valor actual mas el valor del teclado
+es decir si en la caja tenemos <cas> y el presionamos la tecla <a> entonces el e.target.value 
+sera el vamor de <casa>
+
+tiene tambien el atributo value> que determina el valor que va contener la caja de texto
+
+dentro un un etiqueta de tipo <form/> al presionar enter en la caja 
+de texto cuando esta sola se entiende que se llama al submit.
+Los form tiene un callback que se dispara cuando es llamado el submit
+OnSumit = (e)=>{}
+
+esto es una funcion que recibe, donde tiene varios metodos entrellos
+e.preventDefault() que evita el comportamiento por defecto de un formulario
+que es recargar el navegador web.
+
+
